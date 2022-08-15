@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0px;
+
+}
+
+/* header section */
+
+.header {
+    width: 100%;
+    height: 75px;
+    border-bottom: solid black 2px;
+
+
+}
+
+.logo {
+    margin-left: 50px;
+    padding: 15px;
+
+}
+
+/* book now section|| form filling section */
+.section1 {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f5ece7;
+
+}
+
+/* right content */
+.right-content {
+    height: 100%;
+    margin-right: 0;
+    width: 50%;
+
+
+}
+
+.main-image {
+    width: 100%;
+    height: 100vh;
+
+}
+
+/* left content */
+
+.left-content {
+    margin: 150px 60px 100px 150px;
+    width: 50%;
+
+}
+
+.text {
+
+
+    width: 100%;
+    word-wrap: wrap;
+    word-spacing: 3px;
+
+
+}
+
+.text h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.button {
+    margin: 50px 60px 0px 0px;
+    width: 70%;
+
+
+    display: flex;
+
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+.button button:hover {
+    background-color: beige;
+    color: #007bff;
+}
+
+/*rating and information section*/
+.section2 {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #c2c2c2 0.5px;
+}
+
+.section2-item {
+    display: flex;
+
+}
+
+.section2-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.info h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.info p {
+    width: 80%
+}
+
+/* review section */
+.section3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    border-bottom: solid #c2c2c2 0.5px;
+
+}
+
+.left-content2 {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://diagnostics.proactiveforher.com/wp-content/uploads/2022/07/Vector-2.png");
+}
+
+.right-content2 {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+
+
+}
+
+.text1 {
+    margin: 100px;
+    padding: 10px;
+
+}
+
+.text1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* price details */
+.section4 {
+    padding: 70px;
+    width: 100%;
+    height: 230px;
+
+}
+
+.price {
+
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    
+}
+
+.callback {
+    display: flex;
+    background-color: #c7d7ee;
+    width: 300px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 8px;
+
+
+}
+
+
+
+.info {
+    margin-left: 15px;
+}
+
+.info h1 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.cost {
+    width: px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.cost h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h1 span {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #c2c2c2;
+}
+
+.level {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.level h2 {
+    font-size: 20px;
+    color: #706d6d;
+}
+
+.btn1 .btn {
+    background-color: #c7d7ee;
+    color: #0d6efd;
+    border: none;
+    font-weight: 600;
+}
+
+/* section 5 */
+
+.section5{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 0px 80px 0px;
+    
+}
+
+.observation {
+    padding: 30px;
+    background-color: #0d356d;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.one {
+    height: 100%;
+    width: 25%;
+}
+.one h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.one h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.two {
+    height: 100%;
+    width: 25%;
+   background-color: white;
+   text-align: center;
+   border-radius: 12px 0px 0px 12px;
+
+}
+
+.three {
+    height: 100%;
+    width: 25%;
+ 
+   text-align: center;
+
+}
+
+.four {
+    height: 100%;
+    width: 25%;
+   background-color: white;
+   text-align: center;
+   border-radius: 0px 12px 12px 0px;
+
+}
+.fa-circle-check{
+    color: #21df90;
+    font-size: 25px;
+    padding: 10px;
+}
+.fa-circle-xmark{
+    color: #b7bebb;
+    font-size: 25px;
+}
+
+
+.box0{
+    width: 100%;
+    height: 12%;
+
+    padding: 0px 30px 0px;
+}
+
+.box{
+    width: 100%;
+    height: 12%;
+    padding: 0px 30px 6px;
+
+}
+
+.two .box hr{
+    color: #000 ;
+}
+
+.four .box hr{
+    color: #000 ;
+}
+/* process section */
+
+.section6{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 30px 0px;
+    
+    
+}
+.section6-div{
+    background-color: #152837;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.process{
+    width: 35%;
+    height:100% ;
+    padding: 60px 150px 0px 60px;
+}
+.letter h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+
+}
+.button .btn{
+margin-top: 20px;
+}
+.process-info{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info1{
+width: 45%;
+
+
+}
+.info1 h1{
+    font-size: 100px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.info1 p{
+font-size: 20px;
+color: rgb(196, 187, 187);
+font-weight: 600;
+
+}
+/* checkup section */
+
+.section7{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+.care{
+    width: 100%;
+   margin-left: 10px;
+   padding: 30px;
+
+}
+.care h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.care h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.checkup-testing{
+display: flex;
+width: 66%;
+
+
+}
+.checkup{
+    width: 50%;
+    padding: 10px;
+    background-color: #b7712f;
+    height: 200px;
+}
+.testline{
+    margin-left: 1.5px;
+}
+.checkup-heading{
+    width: 100%;
+}
+
+.checkup-heading h1{
+    font-size: 30px;
+    color: #ffff;
+}
+
+.checkup-heading h1 img{
+    width: 80px;
+    margin-left: 25px;
+}
+
+.know-more .btn{
+    width: 350px;
+    margin-top: 30px;
+}
+
+.checkup-left{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.checkup-right{
+    border-radius: 0px 20px 20px 0px;
+}
+/* frequeltly asked quiestion */
+
+.section8{
+    width: 100%;
+  padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6ede5;
+}
+
+.collapsible {
+   
+    background-color: #f6ede5;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition:.3s ease;
+    font-weight: 700;
+  }
+  
+
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f6ede5;
+  }
+  .title{
+    width: 30%;
+    padding: 30px;
+  
+
+  }
+.question{
+    width: 70%;
+}
+
+
+/* fotter section */
+
+.fotter1{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.fo-info{
+width: 33%;
+}
+.fo-info h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.fo-info h1{
+    font-size: 20px;
+    font-weight: 600;
+}
